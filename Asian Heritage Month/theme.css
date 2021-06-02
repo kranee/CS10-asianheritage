@@ -1,11 +1,13 @@
 body {
-	background-color: darkblue;
-	font-family: 
+	background-color: #a5a58d;
+	font-family: 'Bebas Neue', cursive;
+	margin: 0px;
+	color: #6c584c;
 }
 
 h1 {
 	text-align: center;
-	color: white;
+	color: #f0efeb;
 	font-size: 100pt;
 	margin-top: 100px;
 	line-height: 0.25em;
@@ -16,31 +18,58 @@ h2 {
 	text-align: center;
 	margin-left: 30px;
 	margin-right: 30px;
+	font-size: 25pt;
+	color: #6b705c;
 }
 
 div.title {
-	background-color: #e6e6e6;
+	background-color: #ddbea9;
 	padding: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin: 50px;
-	border: 10px solid white;
+	border: 10px solid #f0efeb;
+}
+
+div.two {
+	background-color: #cb997e;
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 50px;
+	border: 10px solid #f0efeb;
+}
+
+div.bar {
+	background-color: #6b705c;
+}
+
+a {
+	color: #f0efeb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f0efeb;
+	background: #828773;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 img {
-	border: 5px solid white;
+	border: 5px solid #f0efeb;
 	margin: 25px;
 }
 
 img.career {
-	border: 5px solid white;
+	border: 5px solid #f0efeb;
 	float: right;
 	margin: 25px;
 	margin-right: 0px;
 }
 
 img.history {
-	border: 5px solid white;
+	border: 5px solid #f0efeb;
 	float: right;
 	margin: 25px;
 	margin-right: 0px;
@@ -48,7 +77,23 @@ img.history {
 }
 
 p {
-	font-size: 18pt;
-	font-family: 'Libre Caslon Text', serif;
+	font-size: 20pt;
+	font-family: 'Maiden Orange', cursive;
 	text-align: justify;
+	color: #6c584c;
+}
+
+p.navigator {
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40pt;
+	color: #f0efeb;
+}
+
+th {
+	font-size: 25pt;
+}
+
+td {
+	font-size: 20pt;
 }

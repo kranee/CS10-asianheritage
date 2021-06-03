@@ -74,18 +74,22 @@ img {
 }
 
 img.career {
-	border: 5px solid #f0efeb;
 	float: right;
 	margin: 25px;
 	margin-right: 0px;
 }
 
+img.time {
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
 img.history {
-	border: 5px solid #f0efeb;
 	float: right;
-	margin: 25px;
 	margin-right: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 p {
@@ -102,10 +106,21 @@ p.navigator {
 	color: #f0efeb;
 }
 
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: 'Maiden Orange', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 th {
 	font-size: 25pt;
+	text-align: left;
+	border-bottom: 1px solid #6c584c;
 }
 
 td {
 	font-size: 20pt;
+	border-bottom: 1px solid #6c584c;
 }

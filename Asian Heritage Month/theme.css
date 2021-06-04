@@ -23,15 +23,6 @@ h2 {
 	line-height: 1.25em;
 }
 
-div.title {
-	background-color: #ddbea9;
-	padding: 30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 50px;
-	border: 10px solid #f0efeb;
-}
-
 div.fixed {
 	background-color: #ddbea9;
 	padding: 30px;
@@ -46,8 +37,9 @@ div.two {
 	background-color: #cb997e;
 	padding: 30px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	margin: 50px;
+	margin-bottom: 20px;
 	border: 10px solid #f0efeb;
 }
 
@@ -55,12 +47,22 @@ div.bar {
 	background-color: #6b705c;
 }
 
-a {
+div.video {
+	background-color: #ddbea9;
+	padding: 30px;
+	margin: 185px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	border: 10px solid #f0efeb;
+}
+
+
+a.navigator {
 	color: #f0efeb;
 	text-decoration: none;
 }
 
-a:hover {
+a.navigator:hover {
 	color: #f0efeb;
 	background: #828773;
 	padding-left: 30px;
@@ -68,27 +70,34 @@ a:hover {
 }
 
 img {
+	border: 10px solid #f0efeb;
+	margin: 10px;
+}
+
+img.home {
 	border: 5px solid #f0efeb;
-	margin: 25px;
-	margin-bottom: 0px;
 }
 
 img.career {
+	border: 5px solid #f0efeb;
 	float: right;
 	margin: 25px;
 	margin-right: 0px;
 }
 
 img.time {
+	border: 5px solid #f0efeb;
 	float: left;
 	margin-top: 10px;
 	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 20px;
 }
 
 img.history {
+	border: 5px solid #f0efeb;
 	float: right;
-	margin-right: 0px;
-	margin-top: 0px;
+	margin-left: 20px;
 	margin-bottom: 0px;
 }
 
@@ -123,4 +132,8 @@ th {
 td {
 	font-size: 20pt;
 	border-bottom: 1px solid #6c584c;
+}
+
+iframe {
+	border: 5px solid #f0efeb;
 }
